@@ -1,6 +1,6 @@
 <template>
     <section id="home"
-        class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-violet-800 relative overflow-hidden">
+        class="min-h-screen flex items-center justify-cente relative overflow-hidden">
         <!-- Animated background elements -->
         <div class="absolute inset-0">
             <div
@@ -30,7 +30,7 @@
                 <div class="order-2 lg:order-1 text-center lg:text-left px-4 sm:px-0">
                     <!-- Enhanced typography with gradient text and better spacing -->
                     <div class="mb-4 sm:mb-6">
-                        <p class="text-base sm:text-lg text-gray-300 mb-2 tracking-wide">Hello, I'm</p>
+                        <p class="text-base sm:text-lg text-black-300 mb-2 tracking-wide">Hello, I'm</p>
                         <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight">
                             <span
                                 class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-gradient">
@@ -41,7 +41,7 @@
 
                     <!-- Enhanced role display with better styling -->
                     <div class="mb-6 sm:mb-8 h-12 sm:h-16 flex items-center justify-center lg:justify-start">
-                        <p class="text-lg sm:text-2xl md:text-3xl text-white font-light">
+                        <p class="text-lg sm:text-2xl md:text-3xl text-black font-light">
                             <span class="text-blue-400">></span> {{ currentRole }}
                             <span class="animate-pulse text-blue-400">|</span>
                         </p>
